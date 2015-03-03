@@ -1,0 +1,188 @@
+html
+{
+	width: 1280px;
+	height: 720px;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+body
+{
+	width: 90%;
+	height: 100%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+	color: white;
+	font: 20px arial, sans-serif;
+    background: -moz-linear-gradient(black, gray); /* Firefox 3.6 to 15 */
+    background: linear-gradient(black, gray); /* Standard syntax */
+}
+
+#chan
+{
+	height: 100%;
+ 	text-align: left;
+ }
+
+#title_container
+{
+	height: 10%;
+	padding: 0px 20px;
+	text-align: left;
+	font: 24px arial, sans-serif;
+	font-weight: 700;
+	background: #ca0002;
+}
+
+#title_container img
+{ 
+	padding: 0px 20px;
+	width: 80px;
+	height: 60px;
+	vertical-align:middle;
+}
+
+#chan_title
+{
+	display:inline-block;
+	vertical-align:middle;
+	line-height: 70px;
+}
+
+#description_container
+{
+	height: 7%;
+	padding: 0px 20px;
+	text-align: left;
+	font-weight: 500;
+	background: #b60002;
+	overflow-x: hidden;
+}
+
+#chan_description
+{ 
+	display:inline-block;
+	vertical-align:middle;
+	line-height: 50px;
+}
+
+#chan_dyn
+{
+	height: 83%;
+	width: 100%;
+}
+
+#podcasts_title td div
+{
+	font: 20px arial, sans-serif;
+	padding: 0px 0px 10px 10px;
+}
+
+#cell_items
+{
+	width: 30%;
+	vertical-align:top;
+}
+
+#cell_middle
+{
+	width: 5%;
+	vertical-align:top;
+}
+
+#cell_player
+{
+	width: 65%;
+	vertical-align: top;
+}
+
+#items_div { background-color: #545454; }
+
+#items_div ul
+{
+	text-align: left;
+	height: 172px;
+	width: 500px;
+ 	margin: 0;
+	padding: 0;
+	list-style-type: none;
+ 	overflow-y: scroll;
+}
+
+#items_div ul li { display: block; }
+
+#items_div ul li a
+{
+	height: 20px;
+	border: 1px solid #515151;
+    border-radius: 2px;
+	padding: 10.5px 11px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	overflow-y: hidden;
+}
+
+#items_div ul li a:hover
+{ background-color: #B60002; }
+
+.selectedItem
+{ background-color: #B60002; }
+
+#chan_items #item { margin-bottom: 10px; }
+#chan_items #item #item_title { font-weight: bold; }
+
+/*
+::-webkit-scrollbar {
+    width: 1em;
+    opacity: 0.3;
+	position: relative;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #545454;
+  outline: 1px solid #545454;
+}*/
+
+#player { width: 98%;}
+
+#playerDesc
+{ 	
+	width: 95%;
+	height: 72px;
+	padding: 0px 10px;
+	text-align: left;
+	word-wrap: break-word;
+	background: #545454;
+	border: 2px solid #545454;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	font: 16px arial, sans-serif;
+	overflow: hidden;
+ }
+ 
+ #playerInstr
+{ 	
+	width: 95%;
+	height: 30px;
+	padding: 0px 10px;
+	text-align: left;
+	line-height: 30px;
+	word-wrap: break-word;
+	background: #545454;
+	border: 2px solid #545454;
+    border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+    font: 10px arial, sans-serif;
+ }
+ 
+ #playerInstr label { padding: 0px 4px; }

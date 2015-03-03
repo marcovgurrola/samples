@@ -1,0 +1,21 @@
+c:\users\administrator\documents\visual studio 2013\Projects\RobotCleaner\RobotCleanerTest\obj\Release\RobotCleanerTest.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleanerTest.dll
+c:\users\administrator\documents\visual studio 2013\Projects\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleanerTest.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleaner.exe
+c:\users\administrator\documents\visual studio 2013\Projects\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleaner.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\RobotCleaner\RobotCleanerTest\obj\Release\RobotCleanerTest.dll
+c:\users\administrator\documents\visual studio 2013\Projects\RobotCleaner\RobotCleanerTest\obj\Release\RobotCleanerTest.pdb
+C:\Users\Administrator\Desktop\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleanerTest.dll
+C:\Users\Administrator\Desktop\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleanerTest.pdb
+C:\Users\Administrator\Desktop\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleaner.exe
+C:\Users\Administrator\Desktop\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleaner.pdb
+C:\Users\Administrator\Desktop\RobotCleaner\RobotCleanerTest\obj\Release\RobotCleanerTest.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\RobotCleaner\RobotCleanerTest\obj\Release\RobotCleanerTest.dll
+C:\Users\Administrator\Desktop\RobotCleaner\RobotCleanerTest\obj\Release\RobotCleanerTest.pdb
+C:\Users\marco.gurrola\Desktop\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleanerTest.dll
+C:\Users\marco.gurrola\Desktop\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleanerTest.pdb
+C:\Users\marco.gurrola\Desktop\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleaner.exe
+C:\Users\marco.gurrola\Desktop\RobotCleaner\RobotCleanerTest\bin\Release\RobotCleaner.pdb
+C:\Users\marco.gurrola\Desktop\RobotCleaner\RobotCleanerTest\obj\Release\RobotCleanerTest.csprojResolveAssemblyReference.cache
+C:\Users\marco.gurrola\Desktop\RobotCleaner\RobotCleanerTest\obj\Release\RobotCleanerTest.dll
+C:\Users\marco.gurrola\Desktop\RobotCleaner\RobotCleanerTest\obj\Release\RobotCleanerTest.pdb

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/home.css">
+	<link rel="stylesheet" type="text/css" href="styles/selectBox.css">
+	<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="scripts/pageStructure.js"></script>
+	<script type="text/javascript" src="scripts/mediaContent.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){  			
+
+		});	
+		
+  		$(document).on("keydown", function (e) {
+			if(!executeCommand(e.which))
+			{ e.preventDefault(); } // prevent scroll / move caret		
+		});
+	</script>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+</head>
+<body onload="obtainFeed(0);">
+	<div id="chan">
+		<div id="title_container">
+			<img id="logo" src="images/logo.png" alt="cnn podcast">
+			<span id="chan_title"></span>
+		</div>
+		<div id="description_container">
+			<span id="chan_description"></span>
+		</div>
+		<table id="chan_dyn">
+			<tr id="podcasts_title" colspan="3">
+				<td><div><label>Podcasts</label></div></td>
+				<td id="cell_middle"></td>
+				<td id="cell_selectBox">
+					<div id="selectBox">
+						<select id="channels" onChange="channelChanged();">
+							<option>1 Anderson Cooper 360° Daily</option>
+							<option>2 CNN Student News</option>
+							<option>3 Fareed Zakaria GPS</option>
+							<option>4 AC360</option>
+							<option>5 Erin Burnett OutFront: Out in the field</option>
+							<option>6 Piers Morgan Live</option>
+							<option>7 Fareed GPS</option>
+							<option>8 State of the Union</option>
+							<option>9 Reliable Sources</option>
+						</select>
+					</div>
+				</td>
+			</tr>
+			<tr>			
+				<td id="cell_items">
+					<div id="items_div">
+						<ul id="chan_items"></ul>
+					</div>
+				</td>
+				<td id="cell_middle"></td>
+				<td id="cell_player">
+					<video id="player" controls="controls">
+						<source src="" type="video/mp4" />
+						<source src="" type="video/x-m4v" />
+						<p>Your browswer does not support video...</p>
+					</video>
+					<div id="playerDesc"></div>
+					<div id="playerInstr">
+						<label><b>Select</b>: Up/Down</label>
+						<label><b>Play/Pause</b>: Enter</label>
+						<label><b>Volume</b>: + -</label>
+						<label><b>Rev/Fwd</b>: Left/Right</label>
+						<label><b>Toggle Controls</b>: Space Bar</label>
+						<label><b>Channels</b>: 1-9</label>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3"></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

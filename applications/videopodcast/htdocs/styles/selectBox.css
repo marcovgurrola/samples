@@ -1,0 +1,29 @@
+#cell_selectBox
+{
+ 	width: 65%;
+ 	overflow: hidden;
+ 	opacity: 0.5;
+ 	color: white;
+}
+
+#selectBox
+{
+   	width: 70%;
+   	height: 20px;
+   	border: 2px solid #515151;
+    border-radius: 2px;
+    background: #545454;
+ }
+ 
+#selectBox select {
+  	width: 100%;
+  	height: 30px;
+  	line-height: 30px;
+  	text-indent: 0.02px;
+	background: #545454;
+	border: 2px solid #545454;
+    border-radius: 1px;
+	font: 20px arial, sans-serif;
+	-webkit-appearance: none;
+  	-moz-appearance: none;
+}
