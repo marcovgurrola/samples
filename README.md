@@ -1,2 +1,2 @@
 # samples
-Codes and Apps written in different languages
+Codes and Applications written in different languages
