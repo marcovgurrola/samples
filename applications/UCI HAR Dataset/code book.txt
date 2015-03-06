@@ -1,0 +1,348 @@
+		DATA DICTIONARY - Human Activity Recognition Using Smartphones Dataset
+
+Column Number from left to Right, and respective Name, Description and possible values.
+
+1 	Subject
+	Single Person Identification on the experiment.
+	1...30
+
+2 	Type
+	The collected data type, some fro Subjects under Training stage
+	and others under the Testing one. Every Subject performed a single
+	experiment type only.
+	Train...Test
+
+3 	Activity
+	The movement/action performed by the Subject.
+	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING
+
+4 	Time_Body_Acceleration_Mean_X
+	Average of Means of Time Component for Body Acceleration in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+5	Time_Body_Acceleration_Mean_Y
+	Average of Means of Time Component for Body Acceleration in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+6	Time_Body_Acceleration_Mean_Z
+	Average of Means of Time Component for Body Acceleration in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+7	Time_Body_Acceleration_Std_X
+	Average of Standard Deviations of Time Component for Body Acceleration in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+8	Time_Body_Acceleration_Std_Y
+	Average of Standard Deviations of Time Component for Body Acceleration in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+9	Time_Body_Acceleration_Std_Z
+	Average of Standard Deviations of Time Component for Body Acceleration in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+10	Time_Gravity.Acceleration_Mean_X
+	Average of Means of Time Component for Gravity Acceleration in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+11	Time_Gravity.Acceleration_Mean_Y
+	Average of Means of Time Component for Gravity Acceleration in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+12	Time_Gravity.Acceleration_Mean_Z
+	Average of Means of Time Component for Gravity Acceleration in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+13	Time_Gravity.Acceleration_Std_X
+	Average of Standard Deviations of Time Component for Gravity Acceleration in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+14	Time_Gravity.Acceleration_Std_Y
+	Average of Standard Deviations of Time Component for Gravity Acceleration in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+15	Time_Gravity.Acceleration_Std_Z
+	Average of Standard Deviations of Time Component for Gravity Acceleration in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+16	Time_Body_Acceleration_Jerk_Mean_X
+	Average of Means of Time Component for Body Acceleration Jerk in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+17	Time_Body_Acceleration_Jerk_Mean_Y
+	Average of Means of Time Component for Body Acceleration Jerk in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+18	Time_Body_Acceleration_Jerk_Mean_Z
+	Average of Means of Time Component for Body Acceleration Jerk in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+19	Time_Body_Acceleration_Jerk_Std_X
+	Average of Standard Deviations of Time Component for Body Acceleration Jerk in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+20	Time_Body_Acceleration_Jerk_Std_Y
+	Average of Standard Deviations of Time Component for Body Acceleration Jerk in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+21	Time_Body_Acceleration_Jerk_Std_Z
+	Average of Standard Deviations of Time Component for Body Acceleration Jerk in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+22	Time_Body_Gyroscope_Mean_X
+	Average of Means of Time Component for Body Gyroscope in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+23	Time_Body_Gyroscope_Mean_Y
+	Average of Means of Time Component for Body Gyroscope in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+24	Time_Body_Gyroscope_Mean_Z
+	Average of Means of Time Component for Body Gyroscope in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+25	Time_Body_Gyroscope_Std_X
+	Average of Standard Deviations of Time Component for Body Gyroscope in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+26	Time_Body_Gyroscope_Std_Y
+	Average of Standard Deviations of Time Component for Body Gyroscope in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+27	Time_Body_Gyroscope_Std_Z
+	Average of Standard Deviations of Time Component for Body Gyroscope in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+28	Time_Body_Gyroscope_Jerk_Mean_X
+	Average of Means of Time Component for Body Gyroscope Jerk in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+29	Time_Body_Gyroscope_Jerk_Mean_Y
+	Average of Means of Time Component for Body Gyroscope Jerk in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+30	Time_Body_Gyroscope_Jerk_Mean_Z
+	Average of Means of Time Component for Body Gyroscope Jerk in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+31	Time_Body_Gyroscope_Jerk_Std_X
+	Average of Standard Deviations of Time Component for Body Gyroscope Jerk in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+32	Time_Body_Gyroscope_Jerk_Std_Y
+	Average of Standard Deviations of Time Component for Body Gyroscope Jerk in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+33	Time_Body_Gyroscope_Jerk_Std_Z
+	Average of Standard Deviations of Time Component for Body Gyroscope Jerk in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+34	Time_Body_Acceleration_Magnitude_Mean
+	Average of Means of Time Component for Body Acceleration Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+35	Time_Body_Acceleration_Magnitude_Std
+	Average of Standard Deviations of Time Component for Body Acceleration Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+36	Time_Gravity.Acceleration_Magnitude_Mean
+	Average of Means of Time Component for Gravity Acceleration Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+37	Time_Gravity.Acceleration_Magnitude_Std
+	Average of Standard Deviations of Time Component for Gravity Acceleration Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+38	Time_Body_Acceleration_Jerk_Magnitude_Mean
+	Average of Means of Time Component for Body Acceleration Jerk Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+39	Time_Body_Acceleration_Jerk_Magnitude_Std
+	Average of Standard Deviations of Time Component for Body Acceleration Jerk Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+40	Time_Body_Gyroscope_Magnitude_Mean
+	Average of Means of Time Component for Body Gyroscope Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+41	Time_Body_Gyroscope_Magnitude_Std
+	Average of Standard Deviations of Time Component for Body Gyroscope Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+42	Time_Body_Gyroscope_Jerk_Magnitude_Mean
+	Average of Means of Time Component for Body Gyroscope Jerk Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+43	Time_Body_Gyroscope_Jerk_Magnitude_Std
+	Average of Standard Deviations of Time Component for Body Gyroscope Jerk Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+44	Freq_Body_Acceleration_Mean_X
+	Average of Means of Frequency Component for Body Acceleration in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+45	Freq_Body_Acceleration_Mean_Y
+	Average of Means of Frequency Component for Body Acceleration in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+46	Freq_Body_Acceleration_Mean_Z
+	Average of Means of Frequency Component for Body Acceleration in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+47	Freq_Body_Acceleration_Std_X
+	Average of Standard Deviations of Frequency Component for Body Acceleration in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+48	Freq_Body_Acceleration_Std_Y
+	Average of Standard Deviations of Frequency Component for Body Acceleration in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+49	Freq_Body_Acceleration_Std_Z
+	Average of Standard Deviations of Frequency Component for Body Acceleration in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+50	Freq_Body_Acceleration_Jerk_Mean_X
+	Average of Means of Frequency Component for Body Acceleration Jerk in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+51	Freq_Body_Acceleration_Jerk_Mean_Y
+	Average of Means of Frequency Component for Body Acceleration Jerk in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+52	Freq_Body_Acceleration_Jerk_Mean_Z
+	Average of Means of Frequency Component for Body Acceleration Jerk in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+53	Freq_Body_Acceleration_Jerk_Std_X
+	Average of Standard Deviations of Frequency Component for Body Acceleration Jerk in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+54	Freq_Body_Acceleration_Jerk_Std_Y
+	Average of Standard Deviations of Frequency Component for Body Acceleration Jerk in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+55	Freq_Body_Acceleration_Jerk_Std_Z
+	Average of Standard Deviations of Frequency Component for Body Acceleration Jerk in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+56	Freq_Body_Gyroscope_Mean_X
+	Average of Means of Frequency Component for Body Gyroscope in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+57	Freq_Body_Gyroscope_Mean_Y
+	Average of Means of Frequency Component for Body Gyroscope in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+58	Freq_Body_Gyroscope_Mean_Z
+	Average of Means of Frequency Component for Body Gyroscope in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+59	Freq_Body_Gyroscope_Std_X
+	Average of Standard Deviations of Frequency Component for Body Gyroscope in X,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+60	Freq_Body_Gyroscope_Std_Y
+	Average of Standard Deviations of Frequency Component for Body Gyroscope in Y,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+61	Freq_Body_Gyroscope_Std_Z
+	Average of Standard Deviations of Frequency Component for Body Gyroscope in Z,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+62	Freq_Body_Acceleration_Magnitude_Mean
+	Average of Means of Frequency Component for Body Acceleration Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+63	Freq_Body_Acceleration_Magnitude_Std
+	Average of Standard Deviations of Frequency Component for Body Acceleration Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+64	Freq_Body_Acceleration_Jerk_Magnitude_Mean
+	Average of Means of Frequency Component for Body Acceleration Jerk Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+65	Freq_Body_Acceleration_Jerk_Magnitude_Std
+	Average of Standard Deviations of Frequency Component for Body Acceleration Jerk Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+66	Freq_Body_Gyroscope_Magnitude_Mean
+	Average of Means of Frequency Component for Body Gyroscope Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+67	Freq_Body_Gyroscope_Magnitude_Std
+	Average of Standard Deviations of Frequency Component for Body Gyroscope Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+68	Freq_Body_Gyroscope_Jerk_Magnitude_Mean
+	Average of Means of Frequency Component for Body Gyroscope Jerk Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
+69	Freq_Body_Gyroscope_Jerk_Magnitude_Std
+	Average of Standard Deviations of Frequency Component for Body Gyroscope Jerk Magnitude,
+	calculated grouping Subject and Activity. Normalized (No Units required).
+	-1, 1
+
