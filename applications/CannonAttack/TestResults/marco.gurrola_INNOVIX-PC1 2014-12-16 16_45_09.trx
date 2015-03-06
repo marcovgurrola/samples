@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9e2f0eaf-4f31-45d6-b425-f29e76e09875" name="marco.gurrola@INNOVIX-PC1 2014-12-16 16:45:09" runUser="INNOVIX\marco.gurrola" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b5eeb8eb-be6a-4bcc-a635-2f2646e711d9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="marco.gurrola_INNOVIX-PC1 2014-12-16 16_45_09">
+      <DeploymentItem filename="C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttack\bin\Release\CannonAttack.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-16T16:45:09.8497460-02:00" queuing="2014-12-16T16:45:09.8937460-02:00" start="2014-12-16T16:45:09.9047460-02:00" finish="2014-12-16T16:45:10.1367460-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCannonIdValid" storage="c:\users\marco.gurrola\documents\visual studio 2010\cannonattack\cannonattacktest\bin\release\cannonattacktest.dll" id="5985701b-341c-bed0-b13f-db23d2c4b14a">
+      <Execution id="cb22a47a-d449-4016-8a4d-7eabcb99dac1" />
+      <TestMethod codeBase="C:/Users/marco.gurrola/Documents/Visual Studio 2010/CannonAttack/CannonAttackTest/bin/Release/CannonAttackTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CannonAttackTest.CannonAttackTest, CannonAttackTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCannonIdValid" />
+    </UnitTest>
+    <UnitTest name="TestCannonShootIncorrectAngle" storage="c:\users\marco.gurrola\documents\visual studio 2010\cannonattack\cannonattacktest\bin\release\cannonattacktest.dll" id="848c8246-2c5f-3c1e-3cc6-5520b783d790">
+      <Execution id="d2f673fa-63c8-45f6-8173-71c0b6e2ae63" />
+      <TestMethod codeBase="C:/Users/marco.gurrola/Documents/Visual Studio 2010/CannonAttack/CannonAttackTest/bin/Release/CannonAttackTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CannonAttackTest.CannonAttackTest, CannonAttackTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCannonShootIncorrectAngle" />
+    </UnitTest>
+    <UnitTest name="TestCannonShootMiss" storage="c:\users\marco.gurrola\documents\visual studio 2010\cannonattack\cannonattacktest\bin\release\cannonattacktest.dll" id="5009303d-563d-5ff2-7181-686b81ec17c5">
+      <Execution id="59aed3b7-f5fe-478a-a686-b11afafcff1d" />
+      <TestMethod codeBase="C:/Users/marco.gurrola/Documents/Visual Studio 2010/CannonAttack/CannonAttackTest/bin/Release/CannonAttackTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CannonAttackTest.CannonAttackTest, CannonAttackTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCannonShootMiss" />
+    </UnitTest>
+    <UnitTest name="TestCannonShootVelocityGreaterThanSpeedOfLight" storage="c:\users\marco.gurrola\documents\visual studio 2010\cannonattack\cannonattacktest\bin\release\cannonattacktest.dll" id="5777e21e-cb47-496e-6721-b5e410169a66">
+      <Execution id="b77a8a70-ef9e-4d4c-b2b8-b686d62e3384" />
+      <TestMethod codeBase="C:/Users/marco.gurrola/Documents/Visual Studio 2010/CannonAttack/CannonAttackTest/bin/Release/CannonAttackTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CannonAttackTest.CannonAttackTest, CannonAttackTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCannonShootVelocityGreaterThanSpeedOfLight" />
+    </UnitTest>
+    <UnitTest name="TestCannonShootHit" storage="c:\users\marco.gurrola\documents\visual studio 2010\cannonattack\cannonattacktest\bin\release\cannonattacktest.dll" id="4390e495-22a9-17bd-d1ca-8c13949ac68a">
+      <Execution id="7cf02100-81f4-4942-864d-8aae12303395" />
+      <TestMethod codeBase="C:/Users/marco.gurrola/Documents/Visual Studio 2010/CannonAttack/CannonAttackTest/bin/Release/CannonAttackTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CannonAttackTest.CannonAttackTest, CannonAttackTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCannonShootHit" />
+    </UnitTest>
+    <UnitTest name="TestCannonMultipleInstances" storage="c:\users\marco.gurrola\documents\visual studio 2010\cannonattack\cannonattacktest\bin\release\cannonattacktest.dll" id="4ec0cd46-4649-cc7e-8e36-0951b47fb9d3">
+      <Execution id="0feb1be4-09ef-4c80-adcf-4367af507ab8" />
+      <TestMethod codeBase="C:/Users/marco.gurrola/Documents/Visual Studio 2010/CannonAttack/CannonAttackTest/bin/Release/CannonAttackTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CannonAttackTest.CannonAttackTest, CannonAttackTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCannonMultipleInstances" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5985701b-341c-bed0-b13f-db23d2c4b14a" executionId="cb22a47a-d449-4016-8a4d-7eabcb99dac1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ec0cd46-4649-cc7e-8e36-0951b47fb9d3" executionId="0feb1be4-09ef-4c80-adcf-4367af507ab8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="848c8246-2c5f-3c1e-3cc6-5520b783d790" executionId="d2f673fa-63c8-45f6-8173-71c0b6e2ae63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5777e21e-cb47-496e-6721-b5e410169a66" executionId="b77a8a70-ef9e-4d4c-b2b8-b686d62e3384" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5009303d-563d-5ff2-7181-686b81ec17c5" executionId="59aed3b7-f5fe-478a-a686-b11afafcff1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4390e495-22a9-17bd-d1ca-8c13949ac68a" executionId="7cf02100-81f4-4942-864d-8aae12303395" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cb22a47a-d449-4016-8a4d-7eabcb99dac1" testId="5985701b-341c-bed0-b13f-db23d2c4b14a" testName="TestCannonIdValid" computerName="INNOVIX-PC1" duration="00:00:00.0102067" startTime="2014-12-16T16:45:09.9187460-02:00" endTime="2014-12-16T16:45:10.1077460-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb22a47a-d449-4016-8a4d-7eabcb99dac1">
+    </UnitTestResult>
+    <UnitTestResult executionId="0feb1be4-09ef-4c80-adcf-4367af507ab8" testId="4ec0cd46-4649-cc7e-8e36-0951b47fb9d3" testName="TestCannonMultipleInstances" computerName="INNOVIX-PC1" duration="00:00:00.0001610" startTime="2014-12-16T16:45:10.1087460-02:00" endTime="2014-12-16T16:45:10.1107460-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0feb1be4-09ef-4c80-adcf-4367af507ab8">
+    </UnitTestResult>
+    <UnitTestResult executionId="d2f673fa-63c8-45f6-8173-71c0b6e2ae63" testId="848c8246-2c5f-3c1e-3cc6-5520b783d790" testName="TestCannonShootIncorrectAngle" computerName="INNOVIX-PC1" duration="00:00:00.0005706" startTime="2014-12-16T16:45:10.1117460-02:00" endTime="2014-12-16T16:45:10.1147460-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2f673fa-63c8-45f6-8173-71c0b6e2ae63">
+    </UnitTestResult>
+    <UnitTestResult executionId="b77a8a70-ef9e-4d4c-b2b8-b686d62e3384" testId="5777e21e-cb47-496e-6721-b5e410169a66" testName="TestCannonShootVelocityGreaterThanSpeedOfLight" computerName="INNOVIX-PC1" duration="00:00:00.0001735" startTime="2014-12-16T16:45:10.1157460-02:00" endTime="2014-12-16T16:45:10.1177460-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b77a8a70-ef9e-4d4c-b2b8-b686d62e3384">
+    </UnitTestResult>
+    <UnitTestResult executionId="59aed3b7-f5fe-478a-a686-b11afafcff1d" testId="5009303d-563d-5ff2-7181-686b81ec17c5" testName="TestCannonShootMiss" computerName="INNOVIX-PC1" duration="00:00:00.0004133" startTime="2014-12-16T16:45:10.1177460-02:00" endTime="2014-12-16T16:45:10.1207460-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59aed3b7-f5fe-478a-a686-b11afafcff1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="7cf02100-81f4-4942-864d-8aae12303395" testId="4390e495-22a9-17bd-d1ca-8c13949ac68a" testName="TestCannonShootHit" computerName="INNOVIX-PC1" duration="00:00:00.0002170" startTime="2014-12-16T16:45:10.1217460-02:00" endTime="2014-12-16T16:45:10.1237460-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cf02100-81f4-4942-864d-8aae12303395">
+    </UnitTestResult>
+  </Results>
+</TestRun>

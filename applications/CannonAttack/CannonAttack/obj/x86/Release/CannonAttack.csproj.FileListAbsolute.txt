@@ -1,0 +1,4 @@
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttack\bin\Release\CannonAttack.exe
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttack\bin\Release\CannonAttack.pdb
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttack\obj\x86\Release\CannonAttack.exe
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttack\obj\x86\Release\CannonAttack.pdb

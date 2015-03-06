@@ -1,0 +1,7 @@
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttackTest\bin\Release\CannonAttackTest.dll
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttackTest\bin\Release\CannonAttackTest.pdb
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttackTest\bin\Release\CannonAttack.exe
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttackTest\bin\Release\CannonAttack.pdb
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttackTest\obj\Release\CannonAttackTest.csprojResolveAssemblyReference.cache
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttackTest\obj\Release\CannonAttackTest.dll
+C:\Users\marco.gurrola\Documents\Visual Studio 2010\CannonAttack\CannonAttackTest\obj\Release\CannonAttackTest.pdb
