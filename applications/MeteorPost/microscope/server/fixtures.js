@@ -4,7 +4,7 @@ if (Posts.find().count() === 0) {
 		url: 'http://sachagreif.com/introducing-telescope/'
 	});
 
-	Post.insert({
+	Posts.insert({
 		title: 'Meteor',
 		url: 'http://meteor.com'
 	});
