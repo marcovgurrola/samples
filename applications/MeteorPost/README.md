@@ -1,3 +1,3 @@
 # Meteor Js Application
-Simple Post (Reddit style) following the book Discover Meteor
+Simple social news site following the book Discover Meteor:
 https://www.discovermeteor.com
