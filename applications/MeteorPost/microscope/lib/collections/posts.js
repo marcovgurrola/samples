@@ -11,6 +11,13 @@ update: function(userId, post, fieldNames) {
 	return (_.without(fieldNames, 'url', 'title').length > 0); }
 });
 
+Posts.deny({
+	update: function(userId, post, fieldNames, modifier) {
+		var errors = validatePost(modifier.$set);
+		return errors.title || errors.url;
+	}
+});
+
 Meteor.methods({
 	postInsert: function(postAttributes) {
     check(this.userId, String);
