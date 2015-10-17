@@ -13,7 +13,6 @@ Template.errors.helpers({
 
 Template.error.onRendered(function() {
 	var error = this.data;
-	console.log(this);
 
 	Meteor.setTimeout(function() {
 		Errors.remove(error._id);
