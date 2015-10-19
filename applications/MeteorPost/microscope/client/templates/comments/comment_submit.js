@@ -2,7 +2,6 @@ Template.commentSubmit.onCreated(function() {
 	Session.set('commentSubmitErrors', {})
 });
 
-
 Template.commentSubmit.helpers({
 	errorMessage: function(field) {
 		return Session.get('commentSubmitErrors')[field];
