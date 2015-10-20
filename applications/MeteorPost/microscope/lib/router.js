@@ -16,8 +16,8 @@ PostsListController = RouteController.extend({
   findOptions: function() {
     return {sort: {submitted: -1}, limit: this.postsLimit()};
   },
-  waitOn: function() {
-    return Meteor.subscribe('posts', this.findOptions());
+  subscriptions: function() {
+    this.postsSub = Meteor.subscribe('posts', this.findOptions());
   },
 	posts: function() {
 		return Posts.find({}, this.findOptions());
@@ -29,11 +29,11 @@ PostsListController = RouteController.extend({
 		});
 		return {
 			posts: this.posts(),
+			ready: this.postsSub.ready,
 			nextPath: hasMore ? nextPath : null
 		};
   }
 });
-
 
 Router.route('/posts/:_id', {
   name: 'postPage',
