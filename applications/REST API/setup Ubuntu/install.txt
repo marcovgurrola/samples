@@ -1,0 +1,68 @@
+#********************* POSTGRES DATABASE ENGINE AND CLIENT ********************
+1.1 Update packages
+sudo apt-get update
+
+1.2 Install engine and client
+sudo apt-get install postgresql postgresql-client
+
+1.3 Access postgres using the client
+sudo -u postgres psql
+
+1.4 Inside postgres environment (psql), set a password for the postgres database
+\password postgres
+
+
+#********************************* NODE + NPM *********************************
+2.1 Install nodejs
+sudo apt-get install nodejs
+
+2.2 Now the node package manager
+sudo apt-get install npm
+
+2.3 Create a symbolic link for node to ease usage
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+
+#******************************** APPLICATION *********************************
+3.1 Decompress marketresearchapi.zip
+sudo unzip marketresearchapi.zip
+
+3.2 Terminal, navigate to scripts folder and Start postgres command line tool:
+cd app/scripts
+
+3.3 Start postgres command line tool:
+psql
+
+3.4 Create the tables on the default database:
+\i db_default_insert.sql
+
+3.5 Quit psql:
+\q
+
+3.5 Set the Password of step 1.4 in the app/config.js:
+cons CONN_STRING = 'postgres://postgres:pAsSw0rd@localhost/postgres';
+
+
+
+
+OPTIONAL
+To run the application as a service (daemon) in Ubuntu (maybe Debian) it is
+necessary to bash the file app/init.d/mrserver and copy it to /etc/init.d/
+Reference:
+1 https://github.com/chovy/node-startup
+http://kosiara87.blogspot.com.br/2013/10/ubuntu-1204-create-simple-daemon.html
+
+
+
+OPTIONAL
+IF you want to use a named address instead an IP, set the DNS and IP like on
+file /etc/dhcp/dhclient.conf , uncomment 2 lines:
+#supersede domain-name "fugue.com home.vix.com";
+#prepend domain-name-servers 127.0.0.1;
+
+supersede domain-name "marketresearch.ddns.net";
+prepend domain-name-servers 52.73.119.75;
+
+you can access by dnsname or ip:
+http://marketresearch.ddns.net
+http://52.73.119.75

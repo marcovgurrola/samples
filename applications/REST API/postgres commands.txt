@@ -1,0 +1,51 @@
+
+#*************************** POSTGRESS COMMAND LINE **************************
+# * To use the Command Line tools, set up your $PATH:
+# http://postgresapp.com/documentation/cli-tools.html
+#    export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+# * El Capitan, modify file /etc/paths if export does not work
+# /Applications/Postgres.app/Contents/Versions/latest/bin
+
+
+# *** Terminal, shell commands usage ***
+
+# - check path:
+# which psql
+
+# - start psql command line:
+# psql
+
+# - start psql using osx UI, look for Postgres.app and double click
+# - then click on 'open psql' button
+
+# - shortcut to start psql connected to a database, (role(user), database):
+# psql -h localhost -p 5432 -U postgres postgres
+# psql -h localhost -p 5432 -U marco market_research
+# sudo -u postgres psql
+
+# ** Once in psql **
+# - psql help:
+# \?
+
+# - sql commands help:
+# \help
+
+# - list databases:
+# \l
+
+# - connect/select database:
+# \c
+
+# - exit from database, can quit command line too
+# \q
+
+# - show data (tables, etc) related to the connected database
+# \d
+
+# - execute file (i.e. sql script)
+# \i FILE
+# \i db.sql
+
+# - execute file directly from shell (calling psql tool)
+# psql -f db.sql
+

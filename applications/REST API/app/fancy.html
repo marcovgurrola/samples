@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html>  
+    <head>
+    	<link rel='stylesheet' type='text/css' href='styles/fancy.css'>
+    </head>
+    <body>
+        <h1>Market Research Client</h1>
+        <form id='form'>
+            <div>
+            	<table id='sbmt_opts'>
+            		<tr>
+            			<td width='32%' align='left'>
+                            <!--<button id='unsubscribe'>
+                                Unsubscribe</button>-->
+                            <label id='conn_status'></label>
+            			</td>
+                        <td width='18%' align='right'>
+                            <label for='updateOpt'>Auto Update</label>
+                            <select id='updateOpt' name='updateOpt'>
+                            <option value='last'>Last</option>
+                            <option value='all'>All</option>
+                            </select>
+                        </td>
+                        <td width='40%' align='right'>
+                            <label for='query_type'> Request</label>
+                            <select id='query_type' name='query_type'>
+                            <option value='surveys'>all surveys</option>
+                            <option value='party'>by conducting party</option>
+                            <option value='subject'>by subject</option>
+                            </select>
+                            <input id='filter' type='text'>
+                            <input type='submit' value='Send'>
+                        </td>
+            		</tr>
+                    <tr>
+                    </tr>
+            	</table>
+            </div>
+        </form>
+        <div id='req_cont'>
+            <pre id='jsonTxt'></pre>
+	    </div>
+        <script src='scripts/socket.io.js'></script>
+        <script src='scripts/jquery-2.2.0.js'></script>
+        <script src='scripts/client.js'></script>
+    </body>
+</html> 

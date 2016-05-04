@@ -1,0 +1,21 @@
+#********************* POSTGRES DATABASE ENGINE AND CLIENT ********************
+1.1 Remove the client
+sudo apt-get autoremove purge postgresql-client
+
+1.2 Remove the engine
+sudo apt-get autoremove purge postgresql
+
+
+#***************************      NODE + NPM       ***************************
+2.1 Remove node
+sudo apt-get autoremove purge nodejs
+
+2.2 Remove the package manager
+sudo apt-get autoremove purge npm
+
+
+#******************************** APPLICATION *********************************
+3.1 Remove marketsurveysapi folder within contents
+sudo rm -rf marketsurveysapi
+
+

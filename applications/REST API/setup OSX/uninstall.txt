@@ -1,0 +1,26 @@
+#*************************** POSTGRES DATABASE  APP **************************
+1.1 Quit Postgres.app
+
+1.2 Drag Postgres.app to the Trash
+
+1.3 Delete the data directory:
+(default location: ~/Library/Application Support/Postgres)
+  or:
+sudo rm -rf /Applications/Postgres.app
+
+1.4 Delete additional libraries:
+sudo rm -rf ~/Library/'Application Support'/Postgres
+
+
+#***************************      NODE + NPM       ***************************
+# Yosemite and El Capitan
+2.1 From shell terminal run script:
+- Download from: https://gist.github.com/TonyMtz/d75101d9bdf764c890ef
+- or use script 'uninstall_npm_node.sh' on this folder
+sudo sh uninstall_npm_node.sh
+
+
+
+#******************************** APPLICATION ********************************
+3.1 Remove marketsurveysapi folder within contents
+

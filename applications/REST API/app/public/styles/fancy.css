@@ -1,0 +1,63 @@
+html
+{
+  width: 1200px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+body
+{
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  font: 16px arial, sans-serif;
+  display: block;
+
+  background-color: #1A82F6;
+  /*background: url(images/grad2.png);*/
+  background-repeat: repeat-y;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear,0% 0%,0% 100%,from(#1A82F6),to(#2F2726));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #2F2726, #1A82F6);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #2F2726, #1A82F6);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #2F2726, #1A82F6);
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #2F2726, #1A82F6);
+}
+
+#sbmt_opts
+{
+  width: 100%;
+  height: 100%;
+  font: 14px arial, sans-serif;
+  vertical-align: center;
+}
+
+#filter
+{
+  height: 15px;
+  border: 0px;
+  border-radius: 3px;
+}
+
+#req_cont
+{
+  height: 88%;
+  text-align: left;
+  font: 14px arial, sans-serif;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  border-radius: 5px;
+  display: block;
+  background: rgba(128, 128, 128, 0.4);
+ }
